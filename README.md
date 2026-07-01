@@ -1,5 +1,5 @@
 ## argocd-apps
-
+```
 📦 РЕПОЗИТОРИЙ 1: argocd-infra (Инфраструктурный)
 └── 📂 clusters/
     └── 📂 stage/
@@ -17,3 +17,4 @@
             │   └── 📄 values.yaml
             └── 📂 templates/
                 └── 📄 custom-res.yaml # Кастомные YAML-манифесты (ConfigMap, Ингрессы)
+```
