@@ -1,0 +1,9 @@
+apiVersion: v2
+name: test-app
+version: 1.0.0
+description: "Test chart for ArgoCD"
+
+dependencies:
+  - name: podinfo
+    version: 6.6.2
+    repository: https://github.io
