@@ -1,20 +1,20 @@
 ## argocd-apps
 ```
-📦 РЕПОЗИТОРИЙ 1: argocd-infra (Инфраструктурный)
+📦 main-repo 1: argocd
 └── 📂 clusters/
     └── 📂 stage/
         └── 📂 apps/
-            └── 📄 simple-app.yaml     # Здесь задаются только values для конкретного кластера.
+            └── 📄 simple-app.yaml     # vaules here
 
 ──────────────────────────────────────────────────────────────────────────────────────────
 
-📦 РЕПОЗИТОРИЙ 2: argocd-apps (Прикладной)
+📦 repo with apps 2: argocd-apps
 └── 📂 apps/
-    └── 📂 lib/
-        └── 📂 simple-app/             # Папка приложения
+    └── 📂 lib/                        # apps here
+        └── 📂 simple-app/             
             ├── 📄 Chart.yaml
-            ├── 📂 values/             # Базовые дефолтные values для приложения
+            ├── 📂 values/             # default values here
             │   └── 📄 values.yaml
             └── 📂 templates/
-                └── 📄 custom-res.yaml # Кастомные YAML-манифесты (ConfigMap, Ингрессы)
+                └── 📄 custom-res.yaml # custom YAML-manifests (ConfigMap, ingresses etc)
 ```
