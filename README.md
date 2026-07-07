@@ -13,8 +13,6 @@
     └── 📂 lib/                        # apps here
         └── 📂 simple-app/             
             ├── 📄 Chart.yaml
-            ├── 📂 values/             # default values here
-            │   └── 📄 values.yaml
-            └── 📂 templates/
-                └── 📄 custom-res.yaml # custom YAML-manifests (ConfigMap, ingresses etc)
+            │   📄 values.yaml
+            │   📄 custom-res.yaml # custom YAML-manifests (ConfigMap, ingresses etc)
 ```
